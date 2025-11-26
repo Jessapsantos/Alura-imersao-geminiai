@@ -1,0 +1,50 @@
+[
+    {
+        "name": "HTML",
+        "descricão": "HTML (Linguagem de Marcação de HiperTexto) é o bloco de construção mais básico da web. Define o significado e a estrutura do conteúdo da web.",
+        "ano": "1991",
+        "link": "https://developer.mozilla.org/pt-BR/docs/Web/HTML"
+    },
+    {
+        "name": "CSS",
+        "descricão": "CSS (Cascading Style Sheets) é uma linguagem de estilo usada para descrever a apresentação de um documento escrito em HTML ou XML. Ele controla o layout, cores, fontes e outros aspectos visuais das páginas da web.",
+        "ano": "1996",
+        "link": "https://developer.mozilla.org/pt-BR/docs/Web/CSS"
+    },
+    {
+        "name": "JavaScript",
+        "descricão": "JavaScript é uma linguagem de programação que permite criar conteúdo dinâmico e interativo em páginas da web. É amplamente utilizado para desenvolvimento front-end e back-end.",
+        "ano": "1995",
+        "link": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
+    },
+    {
+        "name": "Python",
+        "descricão": "Python é uma linguagem de programação de alto nível, interpretada, de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte. É conhecida por sua sintaxe clara e legibilidade.",
+        "ano": "1991",
+        "link": "https://www.python.org/"
+    },
+    {
+        "name": "Java",
+        "descricão": "Java é uma linguagem de programação orientada a objetos e uma plataforma de computação. É conhecida por sua portabilidade, permitindo que os desenvolvedores escrevam o código uma vez e o executem em qualquer lugar (WORA).",
+        "ano": "1995",
+        "link": "https://www.java.com/pt-BR/"
+    },
+    {
+        "name": "TypeScript",
+        "descricão": "TypeScript é um superconjunto de JavaScript que adiciona tipagem estática opcional à linguagem. Ajuda a construir aplicações em larga escala e compila para JavaScript puro.",
+        "ano": "2012",
+        "link": "https://www.typescriptlang.org/pt/"
+    },
+    {
+        "name": "C#",
+        "descricão": "C# (pronuncia-se 'C sharp') é uma linguagem de programação moderna, orientada a objetos e de tipo seguro desenvolvida pela Microsoft para a plataforma .NET.",
+        "ano": "2000",
+        "link": "https://docs.microsoft.com/pt-br/dotnet/csharp/"
+    },
+    {
+        "name": "PHP",
+        "descricão": "PHP é uma linguagem de script de uso geral, especialmente adequada para o desenvolvimento web. É usada para criar páginas web dinâmicas e interativas.",
+        "ano": "1995",
+        "link": "https://www.php.net/"
+    }
+]

@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+/* --- Reset e Estilos Globais --- */
+:root {
+    --cor-primaria: #1a1a1a; /* Preto/Cinza escuro */
+    --cor-texto: #00ff00;    /* Verde limão brilhante */
+    --cor-destaque: #ffffff; /* Branco */
+    --fonte-principal: 'VT323', monospace;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Remove marcadores de lista */
+ul, li {
+    display: contents;
+    list-style-type: none;
+}
+
+body {
+    background-color: var(--cor-primaria);
+    color: var(--cor-texto);
+    font-family: var(--fonte-principal);
+    font-size: 1.2rem;
+    line-height: 1.6;
+    padding-bottom: 100px; 
+}
+
+/* --- Cabeçalho --- */
+header {
+    text-align: center;
+    padding: 2rem 1rem;
+    border-bottom: 2px solid var(--cor-texto);
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    font-size: 3rem;
+    text-shadow: 0 0 5px var(--cor-texto);
+}
+
+/* Seleciona todos os campos de texto */
+
+input[type="text"] {
+  width: 56%;
+  padding: 10px 0 10px 20px; 
+  font-size: 1rem; 
+  font-family: var(--fonte-principal);
+  background-color: var(--cor-primaria);
+  color: var(--cor-destaque);
+  border-color: var(--cor-texto);
+}
+
+/* Estiliza o campo de texto quando ele está em foco */
+input[type="text"]:focus {
+  outline: none; 
+  border-color: var(--cor-texto); 
+  box-shadow: 0 0 5px rgba(0, 255, 0, 1);
+}
+
+/* --- Conteúdo Principal e Cards --- */
+main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.card {
+    background-color: #252525;
+    border: 2px solid var(--cor-texto);
+    padding: 1.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px var(--cor-texto);
+}
+
+.card h2 {
+    color: var(--cor-destaque);
+    margin-bottom: 0.5rem;
+}
+
+.card p {
+    margin-bottom: 1rem;
+}
+
+.card a {
+    color: var(--cor-destaque);
+    text-decoration: none;
+    font-weight: bold;
+    background-color: var(--cor-texto);
+    color: var(--cor-primaria);
+    padding: 0.5rem 1rem;
+    display: inline-block;
+}
+
+.card a:hover {
+    background-color: var(--cor-destaque);
+    color: var(--cor-primaria);
+}
+
+/* --- Rodapé Fixo e Centralizado --- */
+footer {
+    background-color: var(--cor-primaria);
+    border-top: 2px solid var(--cor-texto);
+    padding: 1.5rem;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--cor-texto);
+    margin-right: 1.5rem;
+}
+
+a:hover {
+    color: var(--cor-destaque);
+}
