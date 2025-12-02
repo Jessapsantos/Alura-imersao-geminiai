@@ -1,12 +1,12 @@
 # Base de Conhecimento 📚
 
-Um projeto de estudo Imersão [Alura](https://www.alura.com.br/) com Gemini AI, o estudo é listar e pesquisar tecnologias de programação, consumindo dados dinamicamente de um arquivo JSON.
+Um projeto de estudo Imersão [Alura](https://www.alura.com.br/) com Gemini IA, o estudo é listar e pesquisar tecnologias de programação, consumindo dados dinamicamente de um arquivo JSON.
 
 ### 🎯 O foco do aprendizado:
 
 1. Engenharia de Prompt: As melhores técnicas para criar comandos eficazes e obter resultados precisos do Gemini.
 
-2. Criação de Soluções: Como usar o Google AI Studio e a API Gemini para desenvolver projetos reais, como: <br>
+2. Criação de Soluções: Como usar o Google IA Studio e a API Gemini para desenvolver projetos reais, como: <br>
    Chatbots personalizados.<br>
    Sistemas de agentes autônomos (em edições mais avançadas).<br>
    Automatizar tarefas do dia a dia ou de projetos.
